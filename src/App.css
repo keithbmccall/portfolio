@@ -13,7 +13,7 @@ body {
 .Outer-ring {
   background: #ddddce;
   height: 100%;
-  padding: 5%;
+  padding: 1%;
 }
 .Footer-holder {
   position: fixed;
@@ -99,12 +99,12 @@ a {
 }
 .Contact-text {
   margin-top: 40%;
-  font-size: 30px;
 }
 .Contact-title {
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .Contact-subtitle {
-  font-size: 30px;
+  font-size: 25px;
 }
+

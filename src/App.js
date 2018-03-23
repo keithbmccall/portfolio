@@ -7,11 +7,50 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      projects: [
+        {
+          name: "Colorado",
+          hero: "../images/colorado_pic.png",
+          shortText:
+            "Colorado is a React Native app on the iOS platform for taking reading the RGB and HEX color values from images using the iPhone camera or images off the Camera Roll. There is also the ability to compare real-world items side-by-side with a digital color swatch.",
+          github: "https://github.com/keithmccall/colorado",
+          website: "https://github.com/keithmccall/colorado"
+        },
+        {
+          name: "WIREDSOUNDS",
+          hero: "../images/sounds_pic.png",
+          shortText:
+            "WIRED-SOUNDS, built using Express and Mustache is a one stop place for a music fan's relationship with their favorite artists, using the iTunes api for song info and the Google News RSS feed for recent news posts relating to the artist.",
+          github: "https://github.com/keithmccall/SOUND",
+          website: "http://wiredsounds.herokuapp.com/"
+        },
+        {
+          name: "NFL Trivia League",
+          hero: "../images/browns_pic.png",
+          shortText:
+            "NFL trivia league is a JavaScript based trivia game based around the a simulation of the NFL. As the Browns you answer 16 general NFL trivia questions which determine your wins and losses for the week. Finish in the top 6 of AFC to qualify for the playoffs!",
+          github: "https://github.com/keithmccall/Browns-Game",
+          website: "https://keithmccall.github.io/Browns-Game/"
+        },
+        {
+          name: "No Wander",
+          hero: "../images/nowander.png",
+          shortText:
+            "No Wander is a React & Express collaborative travel organizing application. Where a user can create Itineraries and then other team members can add activities to participate in for the trip. This was a group assignment at General Assembly.",
+          github: "https://github.com/JMCJr/BSTL-Prj-3",
+          website: "https://no-wander.herokuapp.com/dashboard"
+        }
+      ]
+    };
+  }
   render() {
     return (
       <div className="Outer-ring">
         <About />
-        <Projects />
+        <Projects projects={this.state.projects} />
         <Contact />
         <Footer />
       </div>
