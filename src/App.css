@@ -28,18 +28,17 @@ body {
   background-color: pink;
 }
 .About-holder {
-  height: 85vh;
   background-color: white;
   display: flex;
   flex-direction: row;
 }
 .Contact-holder {
-  height: 800px;
-
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  min-height: 600px;
 }
 .Projects-holder {
-  height: 150vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -55,12 +54,13 @@ body {
   margin-left: 10%;
   line-height: 22px;
   font-size: 14px;
-  font-family: "Alte Haas Reg";
+  font-family: "Nunito", sans-serif;
 }
 .Section-header {
   padding: 10% 0 0 5%;
-  font-size: 140px;
+  font-size: 110px;
   font-family: "Alte Haas Bold";
+  line-height: 130px;
 }
 .Projects-container {
   display: grid;
@@ -72,12 +72,39 @@ body {
   display: grid;
   background: #ddddce;
   margin-bottom: 20%;
-  padding: 15px;
+  padding: 15px 15px 0 15px;
   border-radius: 10px;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
 .Projects-img {
   max-width: 100%;
 }
+.Projects-links {
+  font-family: "Alte Haas Bold";
+  font-size: 12px;
+}
 .Projects-text {
+  padding: 10px;
+  line-height: 18px;
+  font-family: "Nunito", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Projects-grid {
+  display: grid;
+  grid-row-gap: 5%;
+  grid-template-rows: 90% 5%;
+}
+.Contact-text {
+  margin-top: 40%;
+  font-size: 30px;
+}
+.Contact-title {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.Contact-subtitle {
+  font-size: 30px;
 }

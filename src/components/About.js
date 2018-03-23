@@ -6,7 +6,7 @@ export default class About extends Component {
 		return (
 			<div className="About-holder">
 				<div className="Flex-1">
-					<div className="Section-header">About.</div>
+					<div className="Section-header">About. Keith McCall</div>
 				</div>
 				<div className="Flex-1">
 					<div className="About-text">
