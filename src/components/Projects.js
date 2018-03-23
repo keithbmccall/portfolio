@@ -24,7 +24,7 @@ export default class Projects extends Component {
 									camera or images off the Camera Roll. There
 									is also the ability to compare real-world
 									items side-by-side with a digital color
-									swatch.
+									swatch..
 								</div>
 							</div>
 						</div>

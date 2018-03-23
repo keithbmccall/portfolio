@@ -11,13 +11,13 @@ body {
   height: 100vh;
 }
 .Outer-ring {
-  background: #fff;
+  background: #ddddce;
   height: 100%;
   padding: 5%;
 }
 .Footer-holder {
   position: fixed;
-  background: #fff;
+  background: #ddddce;
   width: 100%;
   height: 5%;
   bottom: 0;
@@ -29,18 +29,18 @@ body {
 }
 .About-holder {
   height: 85vh;
-  background-color: #ddd;
+  background-color: white;
   display: flex;
   flex-direction: row;
 }
 .Contact-holder {
   height: 800px;
 
-  background-color: red;
+  background-color: white;
 }
 .Projects-holder {
   height: 150vh;
-  background-color: #bab;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -70,7 +70,7 @@ body {
 }
 .Projects {
   display: grid;
-  background: white;
+  background: #ddddce;
   margin-bottom: 20%;
   padding: 15px;
   border-radius: 10px;
@@ -78,7 +78,6 @@ body {
 }
 .Projects-img {
   max-width: 100%;
-  border: 1px solid black;
 }
 .Projects-text {
 }
