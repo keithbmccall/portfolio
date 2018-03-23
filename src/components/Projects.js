@@ -23,7 +23,8 @@ export default class Projects extends Component {
 									color values from images using the iPhone
 									camera or images off the Camera Roll. There
 									is also the ability to compare real-world
-									items side-by-side with a color swatch.
+									items side-by-side with a digital color
+									swatch.
 								</div>
 							</div>
 						</div>
