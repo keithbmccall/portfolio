@@ -5,10 +5,10 @@ export default class About extends Component {
 	render() {
 		return (
 			<div className="About-holder">
-				<div className="Flex-1">
-					<div className="Section-header">About. Keith McCall</div>
+				<div className="Flex-1 About-left">
+					<div className="Section-header">About.</div>
 				</div>
-				<div className="Flex-1">
+				<div className="Flex-1 About-right">
 					<div className="About-text">
 						<p>
 							I am a full stack web developer and graphic designer

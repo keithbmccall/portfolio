@@ -1,128 +1,21 @@
 import React, { Component } from "react";
 import { BrowserRouter, Link, Route, Switch, Redirect } from "react-router-dom";
-import browns from "../images/browns_pic.png";
-import sounds from "../images/sounds_pic.png";
-import colorado from "../images/colorado_pic.png";
-import nowander from "../images/nowander.png";
+
+//
+import ProjectItems from "./ProjectItems";
 
 export default class Projects extends Component {
+	renderProjects = (project, i) => {
+		return <ProjectItems project={project} key={i} />;
+	};
 	render() {
+		const projects = this.props.projects.map(this.renderProjects);
 		return (
 			<div className="Projects-holder">
-				<div>
-					<div className="Section-header">Projects.</div>
+				<div className="Projects-banner">
+					<div className="Section-header">Work.</div>
 				</div>
-				<div>
-					<div className="Projects-container">
-						<div className="Projects">
-							<div className="Projects-grid">
-								<div>
-									<a href="https://github.com/keithmccall/colorado">
-										<img
-											src={colorado}
-											className="Projects-img"
-										/>
-										<div className="Projects-text">
-											Colorado is a React Native app on
-											the iOS platform for taking reading
-											the RGB and HEX color values from
-											images using the iPhone camera or
-											images off the Camera Roll. There is
-											also the ability to compare
-											real-world items side-by-side with a
-											digital color swatch.
-										</div>
-									</a>
-								</div>
-
-								<div className="Projects-links">
-									<a href="https://github.com/keithmccall/colorado">
-										Github Repo
-									</a>
-								</div>
-							</div>
-						</div>
-						<div className="Projects">
-							<div className="Projects-grid">
-								<div>
-									<a href="http://wiredsounds.herokuapp.com/">
-										<img
-											src={sounds}
-											className="Projects-img"
-										/>
-										<div className="Projects-text">
-											WIRED-SOUNDS is a one stop place for
-											a music fan's relationship with
-											their favorite artists, using the
-											iTunes api for song info and the
-											Google News RSS feed for recent news
-											posts relating to the artist.
-										</div>
-									</a>
-								</div>
-								<div className="Projects-links">
-									<a href="https://github.com/keithmccall/SOUND">
-										Github Repo
-									</a>
-								</div>
-							</div>
-						</div>
-						<div className="Projects">
-							<div className="Projects-grid">
-								<div>
-									<a href="https://keithmccall.github.io/Browns-Game/">
-										<img
-											src={browns}
-											className="Projects-img"
-										/>
-										<div className="Projects-text">
-											NFL trivia league is a JavaScript
-											based trivia game based around the a
-											simulation of the NFL. As the Browns
-											you answer 16 general NFL trivia
-											questions which determine your wins
-											and losses for the week. Finish in
-											the top 6 of AFC to qualify for the
-											playoffs!
-										</div>
-									</a>
-								</div>
-								<div className="Projects-links">
-									<a href="https://github.com/keithmccall/Browns-Game">
-										Github Repo
-									</a>
-								</div>
-							</div>
-						</div>
-						<div className="Projects">
-							<div className="Projects-grid">
-								<div>
-									<a href="https://no-wander.herokuapp.com/dashboard">
-										<img
-											src={nowander}
-											className="Projects-img"
-										/>
-										<div className="Projects-text">
-											No Wander is a web-based
-											collaborative travel organizing
-											application. Where a user can create
-											Itineraries and then other team
-											members can add activities to
-											participate in for the trip. This
-											was a group project at General
-											Assembly.
-										</div>
-									</a>
-								</div>
-								<div className="Projects-links">
-									<a href="https://github.com/JMCJr/BSTL-Prj-3">
-										Github Repo
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<div>{projects}</div>
 			</div>
 		);
 	}
