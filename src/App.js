@@ -28,7 +28,7 @@ class App extends Component {
           name: "WIREDSOUNDS",
           hero: sounds,
           shortText:
-            "WIRED-SOUNDS, built using Express and Mustache is a one stop place for a music fan's relationship with their favorite artists, using the iTunes api for song info and the Google News RSS feed for recent news posts relating to the artist.",
+            "WIRED-SOUNDS, built using Express and Mustache. This fun app is a one stop place for a music fan's relationship with their favorite artists, using the iTunes api for song info and the Google News RSS feed for recent news posts relating to the artist.",
           github: "https://github.com/keithmccall/SOUND",
           website: "http://wiredsounds.herokuapp.com/"
         },
