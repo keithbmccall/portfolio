@@ -11,7 +11,7 @@ export default class ProjectItems extends Component {
 						<div className="Projects-textbox">
 							<p className="Projects-text">{project.shortText}</p>
 							<div className="Projects-links">
-								<a href={project.github}>Github Repo</a>
+								<a href={project.github}>Git Repo</a>
 							</div>
 						</div>
 					</a>

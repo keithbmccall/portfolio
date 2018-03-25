@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter, Link, Route, Switch, Redirect } from "react-router-dom";
 
 //
 import ProjectItems from "./ProjectItems";
@@ -13,7 +12,7 @@ export default class Projects extends Component {
 		return (
 			<div className="Projects-holder">
 				<div className="Projects-banner">
-					<div className="Section-header">Work.</div>
+					<div className="Section-header">Projects.</div>
 				</div>
 				<div>{projects}</div>
 			</div>

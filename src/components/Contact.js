@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter, Link, Route, Switch, Redirect } from "react-router-dom";
 
 export default class Contact extends Component {
 	render() {
@@ -12,7 +11,9 @@ export default class Contact extends Component {
 					<div className="Contact-text">
 						<div className="Contact-title">General Inquiries</div>
 						<div className="Contact-subtitle">
-							keithbmccall@gmail.com
+							<a href="mailto:keithbmccall@gmail.com">
+								keithbmccall@gmail.com
+							</a>
 						</div>
 						<div className="Contact-title">Connect</div>
 						<div className="Contact-subtitle">

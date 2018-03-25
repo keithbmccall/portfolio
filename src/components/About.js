@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter, Link, Route, Switch, Redirect } from "react-router-dom";
 
 export default class About extends Component {
 	render() {
@@ -11,17 +10,12 @@ export default class About extends Component {
 				<div className="Flex-1 About-right">
 					<div className="About-text">
 						<p>
-							I am a full stack web developer and graphic designer
-							with over 7 years working in project management and
-							5 years experience in fashion and graphic design. I
-							realized my desire to work towards building tools
-							that will make the world more efficient.
-						</p>
-						<p>
-							I'm passionate about user experience and ease of
-							use. Specializing in React, React Native, Express
-							and Ruby on Rails currently seeking Junior
-							Development roles.
+							A full stack web developer with a background in
+							graphic design. My 5 years experience in design and
+							project management have made me a developer with a
+							foundation for UI as well as working within a team
+							towards a common goal. I'm passionate about user
+							experience and ease of use with efficiency in mind.
 						</p>
 					</div>
 				</div>
