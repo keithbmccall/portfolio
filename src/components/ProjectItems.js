@@ -6,12 +6,18 @@ export default class ProjectItems extends Component {
 		return (
 			<div className="Projects">
 				<div>
-					<a href={project.website}>
+					<a target="_blank" href={project.website}>
 						<img src={project.hero} className="Projects-img" />
 						<div className="Projects-textbox">
 							<p className="Projects-text">{project.shortText}</p>
 							<div className="Projects-links">
-								<a href={project.github}>Git Repo</a>
+								<a target="_blank" href={project.github}>
+									Github
+								</a>
+								<br />
+								<a target="_blank" href={project.website}>
+									Site
+								</a>
 							</div>
 						</div>
 					</a>

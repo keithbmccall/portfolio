@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Splash from "./components/Splash";
 import "./App.css";
 //
 import browns from "./images/browns_pic.png";
@@ -54,14 +54,10 @@ class App extends Component {
   render() {
     return (
       <div className="Outer-ring">
-        <div>
-          <span className="Keith">Keith McCall</span>
-          <span className="Title">Full Stack Developer</span>
-        </div>
+        <Splash />
         <About />
         <Projects projects={this.state.projects} />
         <Contact />
-        <Footer />
       </div>
     );
   }

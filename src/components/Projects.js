@@ -11,9 +11,7 @@ export default class Projects extends Component {
 		const projects = this.props.projects.map(this.renderProjects);
 		return (
 			<div className="Projects-holder">
-				<div className="Projects-banner">
-					<div className="Section-header">Projects.</div>
-				</div>
+				<div className="Projects-banner" />
 				<div>{projects}</div>
 			</div>
 		);

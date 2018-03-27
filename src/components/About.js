@@ -9,14 +9,12 @@ export default class About extends Component {
 				</div>
 				<div className="Flex-1 About-right">
 					<div className="About-text">
-						<p>
-							A full stack web developer with a background in
-							graphic design. My 5 years experience in design and
-							project management have made me a developer with a
-							foundation for UI as well as working within a team
-							towards a common goal. I'm passionate about user
-							experience and ease of use with efficiency in mind.
-						</p>
+						A full stack web developer with a background in graphic
+						design. My 5 years experience in design and project
+						management have made me a developer with a foundation
+						for UI as well as working within a team towards a common
+						goal. I'm passionate about user experience and ease of
+						use with efficiency in mind.
 					</div>
 				</div>
 			</div>
