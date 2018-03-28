@@ -6,6 +6,17 @@
   font-family: "Alte Haas Reg";
   src: url(/fonts/AlteHaasGroteskRegular.ttf) format("truetype");
 }
+.Icons {
+  width: 50px;
+}
+.Stack-icons {
+  flex-direction: row;
+  margin-top: 50px;
+}
+.Tech {
+  font-family: "Alte Haas Bold";
+  font-size: 20px;
+}
 .Splash-holder a:link {
   text-decoration: none;
   color: black;
@@ -51,8 +62,8 @@ body {
 .About-holder {
   background-color: white;
   display: grid;
-  grid-template-rows: 60% 40%;
-  height: 90vh;
+  grid-template-rows: 50% 50%;
+  height: 95vh;
 }
 .Contact-holder {
   background-color: white;
@@ -129,6 +140,8 @@ body {
   grid-column-start: 2;
   font-size: 0.8em;
   line-height: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .Projects-links a {
   transition: all 0.4s;

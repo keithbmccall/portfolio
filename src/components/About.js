@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+//
 
 export default class About extends Component {
 	render() {
 		return (
 			<div className="About-holder">
-				<div className="Flex-1 About-left">
+				<div className="About-left">
 					<div className="Section-header">About.</div>
 				</div>
-				<div className="Flex-1 About-right">
+				<div className="About-right">
 					<div className="About-text">
 						A full stack web developer with a background in graphic
 						design. My 5 years experience in design and project

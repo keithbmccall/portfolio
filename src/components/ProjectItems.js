@@ -1,15 +1,26 @@
 import React, { Component } from "react";
 
 export default class ProjectItems extends Component {
+	renderStack = (stack, key) => {
+		console.log("boomin");
+		return <img src={stack} className="Icons" />;
+	};
 	render() {
 		const { project } = this.props;
+		const stackUsed = project.stack.map(this.renderStack);
 		return (
 			<div className="Projects">
 				<div>
 					<a target="_blank" href={project.website}>
 						<img src={project.hero} className="Projects-img" />
 						<div className="Projects-textbox">
-							<p className="Projects-text">{project.shortText}</p>
+							<div className="Projects-text">
+								<p>{project.shortText}</p>
+								<div className="Flex-1">
+									<span className="Tech">Tech: </span>
+									{stackUsed}
+								</div>
+							</div>
 							<div className="Projects-links">
 								<a target="_blank" href={project.github}>
 									Github
