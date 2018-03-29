@@ -222,6 +222,7 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
+    font-size: 25px;
   }
   .Contact-text {
     margin-top: 100px;
@@ -233,7 +234,6 @@ body {
   .Contact-subtitle a {
     color: #fc755a;
     display: flex;
-    font-size: 19px;
     flex-direction: column;
     align-items: center;
   }
