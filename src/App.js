@@ -32,7 +32,7 @@ class App extends Component {
           name: "Colorado",
           hero: colorado,
           shortText:
-            "Colorado is a React Native app on the iOS platform for taking reading the RGB and HEX color values from images using the iPhone camera or images off the Camera Roll. There is also the ability to compare real-world items side-by-side with a digital color swatch.",
+            "Colorado is a React Native app, on the iOS platform, for reading the RGB and HEX color values from images using the iPhone camera or images off the Camera Roll. There is also the ability to compare real-world items side-by-side with a digital color swatch. I used Express on the backend to store user created content in the form of color palettes for future reference.",
           github: "https://github.com/keithmccall/colorado",
           website: "https://github.com/keithmccall/colorado",
           stack: [reacticon, express, postgresql, xcode, ngrok]
@@ -41,7 +41,7 @@ class App extends Component {
           name: "WIREDSOUNDS",
           hero: sounds,
           shortText:
-            "WIRED-SOUNDS, built using Express and Mustache. This fun app is a one stop place for a music fan's relationship with their favorite artists, using the iTunes api for song info and the Google News RSS feed for recent news posts relating to the artist.",
+            "WIRED-SOUNDS is a iTunes-like web app built using Express, Mustache and Postgresql. This fun app is a one stop place for a music fan's relationship with their favorite artists, using the iTunes api for song info and the Google News RSS feed for recent news posts relating to the artist.",
           github: "https://github.com/keithmccall/SOUND",
           website: "http://wiredsounds.herokuapp.com/",
           stack: [express, postgresql, mustache]
@@ -50,7 +50,7 @@ class App extends Component {
           name: "NFL Trivia League",
           hero: browns,
           shortText:
-            "NFL trivia league is a JavaScript based trivia game based around the a simulation of the NFL. As the Browns you answer 16 general NFL trivia questions which determine your wins and losses for the week. Finish in the top 6 of AFC to qualify for the playoffs!",
+            "NFL trivia league is a jQuery trivia game based around the a simulation of an NFL season. As the coach of the Browns you answer 16 general NFL trivia questions which determine your wins and losses for the week. Finish in the top 6 of AFC to qualify for the playoffs!",
           github: "https://github.com/keithmccall/Browns-Game",
           website: "https://keithmccall.github.io/Browns-Game/",
           stack: [jquery]

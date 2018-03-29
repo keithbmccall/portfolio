@@ -15,7 +15,7 @@ export default class About extends Component {
 						management have made me a developer with a foundation
 						for UI as well as working within a team towards a common
 						goal. I'm passionate about user experience and ease of
-						use with efficiency in mind.
+						use with human efficiency in mind.
 					</div>
 				</div>
 			</div>

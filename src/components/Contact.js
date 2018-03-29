@@ -20,7 +20,7 @@ export default class Contact extends Component {
 							>
 								Github
 							</a>
-							<br />
+
 							<a
 								target="_blank"
 								href="https://www.linkedin.com/in/keithbmccall/"

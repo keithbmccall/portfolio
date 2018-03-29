@@ -1,9 +1,14 @@
 import React, { Component } from "react";
+import express from "../images/icons/express.png";
 
 export default class ProjectItems extends Component {
 	renderStack = (stack, key) => {
-		console.log("boomin");
-		return <img src={stack} className="Icons" />;
+		if (stack == express) {
+			console.log("exp");
+			return <img src={stack} className="Express-icon" />;
+		} else {
+			return <img src={stack} className="Icons" />;
+		}
 	};
 	render() {
 		const { project } = this.props;
@@ -13,22 +18,24 @@ export default class ProjectItems extends Component {
 				<div>
 					<a target="_blank" href={project.website}>
 						<img src={project.hero} className="Projects-img" />
-						<div className="Projects-textbox">
-							<div className="Projects-text">
-								<p>{project.shortText}</p>
-								<div className="Flex-1">
-									<span className="Tech">Tech: </span>
-									{stackUsed}
+						<div className="Mobile-projects">
+							<div className="Projects-textbox">
+								<div className="Projects-text">
+									<p>{project.shortText}</p>
+									<div className="Mobile-stack">
+										<span className="Tech">Tech: </span>
+										<div>{stackUsed}</div>
+									</div>
 								</div>
-							</div>
-							<div className="Projects-links">
-								<a target="_blank" href={project.github}>
-									Github
-								</a>
-								<br />
-								<a target="_blank" href={project.website}>
-									Site
-								</a>
+								<div className="Projects-links">
+									<a target="_blank" href={project.github}>
+										Github
+									</a>
+
+									<a target="_blank" href={project.website}>
+										Website
+									</a>
+								</div>
 							</div>
 						</div>
 					</a>
