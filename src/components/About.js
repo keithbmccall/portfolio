@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 //
+import down from "../images/triangledown.png";
 
 export default class About extends Component {
 	render() {
@@ -16,6 +17,10 @@ export default class About extends Component {
 						for UI as well as working within a team towards a common
 						goal. I'm passionate about user experience and ease of
 						use with human efficiency in mind.
+					</div>
+
+					<div className="Arrow">
+						<img src={down} className="Arrow-down" />
 					</div>
 				</div>
 			</div>
