@@ -57,20 +57,21 @@ class App extends Component {
           stack: [jquery]
         },
         {
+          name: "Gerald Cannon's Projects",
+          hero: gerald,
+          shortText: `This site is to serve as visual artist Gerald Cannon's work. Created in vanilla Javascript, jQuery, HTML, and CSS. Created within my first month of picking up development.`,
+          github: "https://github.com/keithmccall/GeraldCannon",
+          website:
+            "https://keithmccall.github.io/GeraldCannon/pages/geraldcannon.html",
+          stack: [jquery, js, html, css]
+        },
+        {
           name: "No Wander",
           hero: nowander,
           shortText: `No Wander is a React & Express collaborative travel organizing application. Where a user can create Itineraries and then other team members can add activities to participate in for the trip. This was a group assignment at General Assembly.`,
           github: "https://github.com/JMCJr/BSTL-Prj-3",
           website: "https://no-wander.herokuapp.com/dashboard",
           stack: [reacticon, express]
-        },
-        {
-          name: "Gerald Cannon's Projects",
-          hero: gerald,
-          shortText: `This site is to serve as visual artist Gerald Cannon's work. Created in vanilla Javascript, jQuery, HTML, and CSS. Created within my first month of picking up development.`,
-          website:
-            "https://keithmccall.github.io/GeraldCannon/pages/geraldcannon.html",
-          stack: [jquery, js, html, css]
         }
       ]
     };
