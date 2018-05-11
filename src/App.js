@@ -36,7 +36,7 @@ class App extends Component {
         {
           name: "Colorado",
           hero: colorado,
-          shortText: `Colorado is a React Native app, on the iOS platform, for reading the RGB and HEX color values from images using the iPhone camera or images off the Camera Roll. There is also the ability to compare real-world items side-by-side with a digital color swatch. I used Express on the backend to store user created content in the form of color palettes for future reference.`,
+          shortText: `Colorado is a React Native app, on the iOS platform, for reading the RGB and HEX color values from images using the iPhone camera or images off the Camera Roll. There is also the ability to compare real-world items side-by-side with a digital color swatch. On the first build I used Express on the backend to store user created content in the form of color palettes for future reference. I've since switched to use iOS device storage for speed considerations.`,
           github: "https://github.com/keithmccall/colorado",
           website: "https://itunes.apple.com/us/app/colorado-color-palette/id1362360671?mt=8",
           stack: [reacticon, express, postgresql, xcode, ngrok]
