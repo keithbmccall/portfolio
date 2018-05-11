@@ -4,6 +4,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Splash from "./components/Splash";
+import Skills from "./components/Skills";
 import "./App.css";
 //
 import browns from "./images/browns_pic.png";
@@ -37,7 +38,7 @@ class App extends Component {
           hero: colorado,
           shortText: `Colorado is a React Native app, on the iOS platform, for reading the RGB and HEX color values from images using the iPhone camera or images off the Camera Roll. There is also the ability to compare real-world items side-by-side with a digital color swatch. I used Express on the backend to store user created content in the form of color palettes for future reference.`,
           github: "https://github.com/keithmccall/colorado",
-          website: "https://github.com/keithmccall/colorado",
+          website: "https://itunes.apple.com/us/app/colorado-color-palette/id1362360671?mt=8",
           stack: [reacticon, express, postgresql, xcode, ngrok]
         },
         {
@@ -81,6 +82,7 @@ class App extends Component {
       <div className="Outer-ring">
         <Splash />
         <About />
+        
         <Projects projects={this.state.projects} />
         <Contact />
       </div>
