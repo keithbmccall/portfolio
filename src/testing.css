@@ -1,0 +1,51 @@
+/*
+Error: Invalid CSS after ""Alte Haas Bold"": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of App.css
+
+1: @font-face {
+2:   font-family: "Alte Haas Bold";
+3:   src: url(/fonts/AlteHaasGroteskBold.ttf) format("truetype");
+4: }
+5: @font-face {
+6:   font-family: "Alte Haas Reg";
+7:   src: url(/fonts/AlteHaasGroteskRegular.ttf) format("truetype");
+
+Backtrace:
+App.css:2
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/script/lexer.rb:231:in `expected!'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:762:in `assert_done'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:69:in `parse'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/script/parser.rb:228:in `parse'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/script.rb:27:in `parse'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:1177:in `parse_script'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:749:in `parse_property'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:708:in `parse_property_or_rule'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:667:in `parse_line'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:540:in `build_tree'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:559:in `block in append_children'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `each'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `append_children'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:549:in `block in build_tree'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `each'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:542:in `build_tree'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:559:in `block in append_children'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `each'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:558:in `append_children'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:417:in `_to_tree'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:391:in `run'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/gems/sass-3.5.5/bin/sass:13:in `<top (required)>'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/bin/sass:23:in `load'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/bin/sass:23:in `<main>'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/keithmccall/.rvm/gems/ruby-2.5.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\"Alte Haas Bold\"\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of App.css\A \A 1: @font-face {\A 2:   font-family: \"Alte Haas Bold\";\A 3:   src: url(/fonts/AlteHaasGroteskBold.ttf) format(\"truetype\");\A 4: }\A 5: @font-face {\A 6:   font-family: \"Alte Haas Reg\";\A 7:   src: url(/fonts/AlteHaasGroteskRegular.ttf) format(\"truetype\");"; }

@@ -82,7 +82,6 @@ class App extends Component {
       <div className="Outer-ring">
         <Splash />
         <About />
-        
         <Projects projects={this.state.projects} />
         <Contact />
       </div>
